@@ -339,7 +339,7 @@ footer .widget_title_text {
 }
 header .container {
     flex-direction: row;
-    height: 50px;
+    height: 95px;
 }
 nav ul {
     flex-direction: column;

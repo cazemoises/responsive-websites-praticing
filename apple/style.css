@@ -1,0 +1,115 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 50px;
+    display: flex;
+    background-color: #313131;
+}
+header .container {
+    display: flex;
+    width: 100%
+}
+header .container .menu {
+    width: 100%;
+}
+header .container .logo {
+    padding: 2px;
+    height: 48px;
+}
+header .container .logo img {
+    height: 100%;
+}
+header .container .menu nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+header .container .menu nav ul li {
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 12px;
+}
+header .container .menu nav ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #888;
+}
+header .container .menu nav ul li a:hover {
+    color: #fff ;
+}
+.container .devices_bar {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container .devices_bar .device {
+    height: 80px;
+    margin-left: 40px;
+}
+.container .devices_bar img {
+    height: 80px;
+    width: 90px;
+}
+.container .devices_bar .device .device_name {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.container .devices_bar .device .device_name a {
+    text-decoration: none;
+    color: #000;
+    position: 0.4s;
+    display: flex;
+    flex-direction: column;
+}
+.container .devices_bar .device .device_name a:hover {
+    color: #0066CC;
+}
+.container .ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding: 9px 0;
+    font-size: 12px;
+    background-color: #F5F5F7;
+}
+.container .ad a {
+    margin-left: 3px;
+}
+.container .ad a, container .ad .chevron_arrow {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.container .ad a:hover {
+    text-decoration: underline;
+}
+.container .ad 
+.chevron_arrow {
+    cursor: pointer;
+    margin-left: 2px;
+    border-right: 1px solid #0066CC; 
+    border-bottom: 1px solid #0066CC;
+    height: 4px;
+    width: 4px;
+    transform: rotate(-45deg);
+}
+img {
+    -webkit-user-drag: none;
+}

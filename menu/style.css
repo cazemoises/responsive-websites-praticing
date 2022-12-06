@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.container .menu {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.container .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.2s;
+}
+.container .menu a:hover {
+    color: #999;
+}
+.container .menu .awax {
+    flex: 1;
+}
+.container .menu .apple {
+    flex: 1;
+}
+.container .menu .medicenter {
+    flex: 1;
+}

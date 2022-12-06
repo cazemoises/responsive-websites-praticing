@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    width: 100vw;
     overflow-x: hidden;
 }
 header {
@@ -25,6 +30,9 @@ header .header .logo .logoimg {
     height: 80px;
     background-color:#b28756;
 }
+header .header .logo .logoimg img {
+    height: 100%;
+}
 header .header .logo {
     width: 100px;
 }
@@ -41,6 +49,7 @@ header .header .menu ul {
 
 }
 header .header .menu li a {
+    transition: 0.4s;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -54,7 +63,7 @@ header .header .menu li a {
 }
 header .header .menu li a:hover, header .header .menu .active a {
     border-bottom: 5px solid #b28756;
-    color:#ccc;
+    color:#b28756;
 }
 .button {
     display: inline-block;
@@ -258,7 +267,7 @@ header .header .menu li a:hover, header .header .menu .active a {
 }
 .section-projects--photoinfo {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     width: inherit;
     height: inherit;
     display: none;
@@ -402,4 +411,3 @@ section-map--info-item-img img {
     width: 15px;
     height: auto;
 }
-
